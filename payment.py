@@ -5,6 +5,7 @@ def calculate(a,b):
     return a+b
 
 
+
 @app.route("/")
 def index():
     return "This is payment page for %s USD"%calculate(13,27)
